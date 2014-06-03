@@ -10,7 +10,7 @@
 
     <jaxrs:server id="server" address="/">
         <jaxrs:serviceBeans>
-            <bean id="pingApi" class="com.ajk.PingApi" />
+            <bean id="pingApi" class="com.ajk.api.PingApi" />
         </jaxrs:serviceBeans>
     </jaxrs:server>
 
